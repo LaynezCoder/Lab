@@ -62,7 +62,7 @@ header ul li a {
 
 .content .text-box {
     position: relative;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .content .text-box h2 {
@@ -96,105 +96,15 @@ header ul li a {
 }
 
 .content .image-box img {
-    max-width: 1500px;
+    height: 400px;
+    opacity: 0.5;
+    filter: invert(1);
 }
 
-#favorites {
-    display: inline-block;
-    background-color: white;
-}
-
-.card-container {
-    max-width: 1200px;
-    height: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-
-.title-favorites {
-    position: absolute;
-    margin-bottom: 35px;
-    font-size: 35px;
-}
-
-.title-favorites h1 {
-    text-align: center;
-    color: #1D1D1D;
-}
-
-.card-container .card {
-    width: 330px;
-    height: 330px;
-    border-radius: 4px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 70px;
-    text-align: center;
-    transition: all 0.25s;
-}
-
-.card-container .card:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-
-.card-container .card img {
-    margin-top: 30px;
-    width: 200px;
-    height: 200px;
-}
-
-.card-container .card h4 {
-    font-size: 18px;
-}
-
-.card-container .card p {
-    padding: 0 1rem;
-    font-size: 16px;
-    text-align: justify;
-}
-
-.card-container .card a {
-    text-decoration: none;
-    color: gray;
-}
-
-#gallery {
-    display: inline-block;
-    background-color: #fff;
-    max-height: 300px;
-}
-
-.images-container {
-    margin: 1rem;
-    padding: 1rem;
-    text-align: center;
-}
-
-#gallery .gallery-container .images-container img {
-    margin: 50px;
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    transition: all 0.25s;
-}
-
-#gallery .gallery-container .images-container img:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-
-#gallery .gallery-container .title-gallery {
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
 footer {
     text-align: center;
-    background-color: black;
+    background-color: #1D1D1D;
 }
 
 footer img {
@@ -231,19 +141,58 @@ footer p {
     transform: translateY(-5px);
 }
 
-#review {
-    color: #fff;
-    background-image: url("images/review-background.jpg");
-    background-color: #fff;
+#projects {
+    background-color: white;
 }
 
-.review-content h1 {
+.card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.card-container .card {
+    width: 800px;
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 70px;
     text-align: center;
-    margin: 15px;
-    font-size: 35px;
+    justify-content: center;
+    transition: all 0.25s;
 }
 
-.review-content p {
-    text-align: justify;
-    font-size: 30px;
+.card-container h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-container .card img {
+    margin-top: 30px;
+    width: 500px;
+    height: 300px;
+}
+
+.card-container .card h4 {
+    margin: 1em;
+    font-size: 18px;
+}
+
+.card-container .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card-container .card a {
+    text-align: center;
+    text-decoration: none;
+    color: gray;
 }

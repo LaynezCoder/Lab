@@ -228,3 +228,20 @@ footer p {
 .socials li a img:hover {
     transform: translateY(-5px);
 }
+
+.review {
+    color: #fff;
+    background-image: url("images/review-background.jpg");
+    background-color: #fff;
+}
+
+.review-content h1 {
+    text-align: center;
+    margin: 15px;
+    font-size: 35px;
+}
+
+.review-content p {
+    text-align: justify;
+    font-size: 30px;
+}

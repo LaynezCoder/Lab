@@ -35,6 +35,7 @@ header .logo {
 }
 
 header ul {
+    min-width: 1000px;
     position: relative;
     display: flex;
 }
@@ -62,7 +63,7 @@ header ul li a {
 
 .content .text-box {
     position: relative;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .content .text-box h2 {

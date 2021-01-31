@@ -197,7 +197,15 @@ footer p {
     color: gray;
 }
 
+.about-image img {
+    opacity: 0.2;
+    width: 1000px;
+    max-width: 1000px;
+    filter: invert(0.5);
+}
+
 .about-content {
+    min-width: 500px;
     color: #fff;
 }
 

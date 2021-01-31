@@ -196,3 +196,73 @@ footer p {
     text-decoration: none;
     color: gray;
 }
+
+.about-content {
+    color: #fff;
+}
+
+.about-content h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+.about-content p {
+    text-align: justify;
+}
+
+.lenguages {
+    text-align: center;
+}
+
+.lenguages p {
+    text-align: center;
+    margin: 15px;
+}
+
+.lenguages h5 {
+    text-align: center;
+    margin: 15px;
+}
+
+.progress-container { 
+    border-color: #fff;
+    border-style: solid;
+    background-color: #1D1D1D; 
+    width: 100%; 
+    border-radius: 15px; 
+    height: 15px;
+    border-width: 2px;
+} 
+
+.progress { 
+    background-color: #F0F0F0; 
+    color: white; 
+    padding: 1%;  
+    border-radius: 15px;
+    height: 12px;
+} 
+
+.java { 
+    width: 35%; 
+} 
+
+.java-ee { 
+    width: 20%; 
+} 
+
+.java-FX { 
+    width: 45%; 
+} 
+
+.git {
+    width: 20%; 
+}
+
+.html {
+    width: 35%; 
+}
+
+.css {
+    width: 25%; 
+}
+

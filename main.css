@@ -35,7 +35,6 @@ header .logo {
 }
 
 header ul {
-    min-width: 1000px;
     position: relative;
     display: flex;
 }
